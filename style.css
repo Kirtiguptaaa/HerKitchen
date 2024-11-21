@@ -1,0 +1,313 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.topic{
+    margin-left: 200px;
+    font-weight:bold;
+    font-size: 60px;
+    
+    text-decoration: #d32f2f;
+    margin-bottom:  0;
+    text-rendering: optimizeSpeed;
+}
+.subtitle {
+    margin-left:-20px; 
+    font-weight: normal; 
+    font-size: 30px; 
+    color: #d32f2f; 
+    margin-top: 25px; 
+}
+
+.head{
+    display: flex;
+    padding: 0;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+.sticky-nav-options{
+    display: block;
+    margin-right: 1rem;
+    margin-top: 20px;
+}
+
+.sticky-nav-options button{
+    margin-right: 1rem;
+    background-color:#f28b82;
+    color: white;
+    border:  2px solid #d32f2f;
+    padding: 5px 15px;
+}
+.sticky-nav-options button:hover{
+    box-shadow:  0 4px 6px rgba(211, 47, 47, 0.5);
+}
+.logo{
+    height: 50px;
+    width: 65px;
+    border-radius: 50%;
+}
+
+.nav-bar{
+    justify-content: space-around;
+    text-align: center;
+    width: 100%; 
+    background-color: #fff;
+    margin-top:30px;
+    border: solid #232323 2px;
+}
+.nav-bar a{
+    text-decoration: none;
+    padding: 0.75rem;
+    margin-right: 60px;
+    font-size: 20px;
+    color:#d32f2f;
+    margin-bottom: 10px;
+    
+}
+
+.image{
+    width: 1500px;
+    height: 500px;
+    background-image: url("Images/back-img2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 30px;
+    opacity: 0.9;
+}
+.introduction a{
+    text-decoration: none;
+    background-color:#f28b82;
+    color: white;
+    border:  2px solid #d32f2f;
+    padding: 5px 15px;
+    animation: fadeIn 2s ease-in-out;
+}
+
+.introduction{
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    color: white;
+    font-size:medium;
+    margin-top: 80px;
+}
+
+.tag-line{
+    font-size: 2rem;
+    color: #d32f2f;
+    font-weight: bold;
+    margin-bottom: 20px;
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+
+.cards{
+    height:175px;
+    width: 175px;
+    align-content: center;
+    margin-left: 20px;
+    margin-top: 15px;
+    border-top-left-radius: 0.75rem;
+    border-top-right-radius: 0.75rem;
+    overflow: hidden;
+}
+.card-container:hover{
+    box-shadow:  0 4px 6px rgba(211, 47, 47, 0.5);
+}
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 0.75rem;
+    background-color: #dbc1be;
+    height:400px;
+    width: 250px;
+    margin-right: 60px;
+    margin-left: 17.5px;
+    padding: 20px;
+    text-align: center;
+}
+.card-content{
+    align-content: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    
+
+}
+.special-offers{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 60px;
+    margin-left: 55px;
+    margin-top: 20px;
+}
+.heading{
+    border:  2px solid #d32f2f;
+    background-color: #f28b82;
+    color: white;
+    
+    padding-top:0px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    margin-top: 0;
+    width: 30vh;
+    margin-left: 650px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.heading:hover{
+    box-shadow:  0 4px 6px rgba(211, 47, 47, 0.5);
+}
+.most-liked{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 60px;
+    margin-left: 55px;
+}
+
+.explore-more{
+    border: solid #d32f2f;
+    background-color: #f28b82;
+    color: white;
+    padding: 5px 15px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    width: 30vh;
+    margin-left: 650px;
+    cursor: pointer;
+    text-align: center;
+}
+.explore-more:hover{
+    box-shadow:  0 4px 6px rgba(211, 47, 47, 0.5);
+}
+.icons-container{
+    align-items: center;
+    padding-left: 725px;
+}
+
+.icons{
+    font-size: 20px;
+    opacity:0.7;
+    justify-content:space-around;
+    cursor: pointer;
+}
+.icons:hover{
+    opacity:1;
+    font-size: 25px;
+}
+.deals{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 60px;
+    margin-left: 55px;
+    
+}
+.punch-line{
+    width: 100%;
+   align-content: center;
+   
+}
+.punch-line p{
+    font-size: medium;
+    color: red;
+    font-weight: 500;
+    font-size:30px;
+    margin-top: 5px;
+    margin-left: 300px;
+}
+.explore-container h2 {
+    text-align: center; 
+    font-size:50px;   
+    font-weight: bold;     
+    color: white;        
+}
+.explore-container {
+    background: linear-gradient(to bottom, #EE8E6B, #EF6DA0); /* Gradient from pink to orange */
+}
+.explore-more-page .explore-container {
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+.explore-more-page .restaurant-boxes {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 boxes per row */
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.explore-more-page .restaurant-box {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.explore-more-page .restaurant-box h3 {
+    text-align: center;
+    color:#E84393;
+}
+
+.explore-more-page .menu ul {
+    list-style: none;
+    padding: 0;
+}
+
+.explore-more-page .menu li {
+    padding: 8px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.explore-more-page .menu input[type="checkbox"] {
+    margin-left: 10px;
+}
+
+.explore-more-page .order-button {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.explore-more-page .order-button button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.explore-more-page .order-button button:hover {
+    background-color: #45a049;
+}
+.search-container {
+    margin-top: 20px; 
+    text-align: center;
+}
+
+.search-container input[type="text"] {
+    width: 70%;
+    padding: 12px; 
+    border: 2px solid #ddd; 
+    border-radius: 8px; 
+    font-size: 16px; 
+    box-sizing: border-box; 
+    outline: none;
+}
+
+.search-container input[type="text"]:focus {
+    border-color: #4CAF50; 
+}
